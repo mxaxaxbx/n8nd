@@ -1,0 +1,7 @@
+FROM n8nio/n8n:latest
+
+ENV PORT=8080
+
+ENV N8N_PORT=$PORT
+
+EXPOSE 8080
