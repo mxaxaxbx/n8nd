@@ -68,7 +68,7 @@ services:
 Build and start the container:
 
 ```bash
-docker-compose up --build
+docker-compose up
 ```
 
 Visit the app at: [http://localhost:8080](http://localhost:8080)
