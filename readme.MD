@@ -9,7 +9,6 @@ This setup builds a container using the official `n8nio/n8n:latest` image, with 
 ### 📁 Project Structure
 
 ```
-
 .
 ├── Dockerfile
 ├── .env
