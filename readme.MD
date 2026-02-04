@@ -81,3 +81,4 @@ Basic authentication is enabled if `N8N_BASIC_AUTH_ACTIVE=true`. Use the credent
 ```bash
 docker-compose down
 ```
+
