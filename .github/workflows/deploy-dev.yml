@@ -68,4 +68,4 @@ jobs:
             --region us-east1 \
             --allow-unauthenticated \
             --service-account ${{ secrets.GCP_SA_EMAIL_DEV }} \
-            --timeout 300s
+            --port 8080
