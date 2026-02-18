@@ -67,4 +67,5 @@ jobs:
             --image us-east1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID_DEV }}/digi/n8nd:${{ github.sha }} \
             --region us-east1 \
             --allow-unauthenticated \
-            --service-account ${{ secrets.GCP_SA_EMAIL_DEV }}
+            --service-account ${{ secrets.GCP_SA_EMAIL_DEV }} \
+            --timeout 300s
